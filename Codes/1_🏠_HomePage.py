@@ -1,6 +1,7 @@
 import cv2
 import face_recognition
 import streamlit as st
+import cmake
 
 st.set_page_config(
     page_title= "Discription",

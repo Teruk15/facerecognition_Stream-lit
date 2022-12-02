@@ -11,6 +11,9 @@ st.set_page_config(
 
 st.title("Now... Let me guess your name!!!")
 
+if not os.path.isdir("Train_Images"):
+            os.makedirs("Train_Images")
+
 path = 'Test_Images'
 folder_dir = 'Train_Images'
 train_images_list = os.listdir(folder_dir)
